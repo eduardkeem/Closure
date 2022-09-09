@@ -13,7 +13,8 @@ const hash = () => {
 
 // Usage
 
-const h1 = hash();
+const h1 = hash();       // Присвоение к переменной и создание новой функции h1, которую можно вызвать
+
 h1('name', 'Marcus');
 h1('city', 'Roma');
 const obj1 = h1('born', 121);
